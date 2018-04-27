@@ -1,7 +1,13 @@
 package Phone;
 
 public class galaxyPhone extends Phone{
-
+	
+	public galaxyPhone() {}
+	
+	public galaxyPhone(String owner) {
+		super(owner);
+	}
+	
 	@Override
 	public void turnOn() {
 		System.out.println("삼성로고 켜기");

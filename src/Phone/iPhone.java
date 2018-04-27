@@ -1,6 +1,12 @@
 package Phone;
 
 public class iPhone extends Phone{
+	
+	public iPhone() {}
+	
+	public iPhone(String owner) {
+		super(owner);
+	}
 
 	@Override
 	public void turnOn() {
